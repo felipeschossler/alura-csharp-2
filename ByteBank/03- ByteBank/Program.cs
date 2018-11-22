@@ -29,8 +29,16 @@ namespace _03__ByteBank
             Console.WriteLine("Igualdade de tipo de valor: " + (idade == idadeMaisUmaVez));
             Console.WriteLine("Igualdade de tipo de referência: " + (contadaGabriela == contadaGabrielaCosta));
 
-            Console.WriteLine("Se as instancias do objeto forem igualadas ou seja contadaGabriela = contadaGabrielaCosta elas apontaram para o mesmo lugar na memória \n e assim " +
-                "sempre terão o mesmos valores mesmo se apenas um objeto mudar de valor. ");
+            //Se as instancias do objeto forem igualadas ou seja contadaGabriela = contadaGabrielaCosta elas apontaram para o mesmo lugar na memória \n e assim " +
+            //sempre terão o mesmos valores mesmo se apenas um objeto mudar de valor.
+
+
+            //problema chapter 3
+            if(contadaGabriela.saldo >= 100)
+            {
+                contadaGabriela.saldo -= 100;
+            }
+            
 
             Console.ReadLine();
 
