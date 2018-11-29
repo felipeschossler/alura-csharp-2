@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _03__ByteBank
+namespace _03_ByteBank
 {
     class Program
     {
